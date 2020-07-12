@@ -4,7 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hotel Wesite</title>
-    <link rel="stylesheet" href="./main.css" />
+    <!-- font awesome icons -->
+    <script
+      src="https://kit.fontawesome.com/3106105872.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width:768px)"
+      href="css/mobile.css"
+    />
   </head>
   <body>
     <header>
@@ -19,13 +31,14 @@
         </div>
       </nav>
 
+      <!-- showcase -->
       <div id="showcase">
         <div class="container">
           <div class="showcase-content">
-            <h1><span class="text-primary">Enjoy </span>Your Stay</h1>
+            <h1><span class="text-primary">Enjoy</span> Your Stay</h1>
             <p class="lead">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Laboriosam beatae tenetur soluta molestias provident at
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
+              omnis architecto totam quam! Quae, alias.
             </p>
             <a class="btn" href="about.html">About Our Hotel</a>
           </div>
@@ -33,13 +46,56 @@
       </div>
     </header>
 
-    <section id="home-info" class='bg-dark'>
-        <div class="info-img"></div>
-        <div class="info-content">
-            <h2><span class='text-primary'>Ths History</span> Of Our Hotel</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, culpa molestias eius ipsam laudantium veniam enim aperiam vel ex id officiis sit nesciunt inventore nemo accusamus exercitationem maiores ad assumenda magnam tempora aspernatur quidem? Dicta adipisci cumque dolorem assumenda culpa.</p>
-            <a href="about.html" class="btn btn-light">Read More</a>
-        </div>
+    <!-- content -->
+    <section id="home-info" class="bg-dark">
+      <div class="info-img"></div>
+      <div class="info-content">
+        <h2><span class="text-primary">The History</span> Of Our Hotel</h2>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates
+          qui, quo sint voluptatem harum nobis fuga repudiandae ducimus odio
+          tempora veritatis adipisci quasi quam cumque commodi aliquam aliquid
+          maxime aperiam earum facere delectus nesciunt impedit mollitia autem.
+          Non, illum adipisci?
+        </p>
+
+        <a href="about.html" class="btn btn-light">Read More</a>
+      </div>
     </section>
+
+    <!-- features -->
+    <section id="features">
+      <div class="box bg-light">
+        <i class="fas fa-hotel fa-3x"></i>
+        <h1>Great Location</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi est
+          facilis labore iusto sit libero facere doloremque minima aut aliquid?
+        </p>
+      </div>
+      <div class="box bg-primary">
+        <i class="fas fa-utensils fa-3x"></i>
+        <h1>Free Meals</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi,
+          veritatis. Provident iure culpa incidunt illo ratione nam quis vitae
+          accusantium.
+        </p>
+      </div>
+      <div class="box bg-light">
+        <i class="fas fa-dumbbell fa-3x"></i>
+        <h1>Fitness Room</h1>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo eligendi
+          obcaecati magnam tenetur at enim commodi laudantium velit omnis amet?
+        </p>
+      </div>
+    </section>
+
+    <div class="clr"></div>
+    <!-- footer -->
+    <footer id="main-footer">
+      <p>Hotel HBT &copy; 2019, All Right Reserved</p>
+    </footer>
   </body>
 </html>
